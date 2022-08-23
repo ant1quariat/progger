@@ -1,0 +1,49 @@
+.button-push {
+    position: relative;
+    padding: 10px 15px 10px 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-push>img{
+    position: absolute;
+    top: 5px;
+    left: 2px;
+}
+
+.button-settings {
+    background-color: unset;
+    background-color: unset;
+    border: unset;
+    position: relative;
+}
+
+.button-settings>img{
+    position: absolute;
+    padding: 5px 5px;
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    top: 0;
+}
+
+.button-settings:hover>img{
+    border-color: red;
+}
+
+.button-report{
+    background-color: unset;
+    border: unset;
+    position: relative;
+    color: red;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+.button-report>img{
+    position: absolute;
+    top: 8px;
+    left: -5px;
+}

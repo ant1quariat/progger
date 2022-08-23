@@ -1,0 +1,92 @@
+.menu{
+    width: 500px;
+    min-height: 200px;
+
+    text-align: left;
+}
+#home::before{
+    content: url('../../../Svg/buttons/home.svg');
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+#news::before{
+    content: url('../../../Svg/buttons/news.svg');
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+#profile::before{
+    content: url('../../../Svg/buttons/profile.svg');
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+#group::before{
+    content: url('../../../Svg/buttons/group.svg');
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+#discussion::before{
+    content: url('../../../Svg/buttons/discussion.svg');
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+.menu-link>img{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+.menu-list{
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: linear-gradient(0deg, rgba(44, 91, 179, 0.08), rgba(44, 91, 179, 0.08)), #FEFBFF;
+
+    min-width: 200px;
+    padding: 15px;
+    margin-top: 15px;
+
+    border: 1px solid var(--outline);
+    border-radius: 25px;
+    position: relative;
+    
+}
+.menu-link{
+    text-decoration: none;
+    padding: 10px 60px;
+    position: relative;
+    color: black;
+}
+.menu-link:last-child{
+    margin-bottom: unset !important;
+}
+.menu-link[data-active="active"]{
+    text-decoration: none;
+
+    border: 2px solid var(--outline1);
+    border-radius: 50px;
+
+    background-color: var(--primary-container);
+    color: var(--surface);
+}
+.menu-link:hover{
+    border-radius: 50px;
+
+    background-color: #B0C6FF;
+    color: black;
+    padding: 10px 60px;
+}
+.menu-link:active{
+    background-color: #B0C6FF;
+    color: white;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+
+@import 'Modules/Components/header.module.css';
+@import 'Modules/Components/content.module.css';
+
+@import 'Modules/Components/buttons.module.css';
+@import 'Modules/Components/menu.module.css';
+
+@import 'Modules/token.module.css';
+@import 'Modules/theme.module.css';
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1280px;
+    overflow: hidden;
+
+    font-family: 'Roboto Flex';
+}

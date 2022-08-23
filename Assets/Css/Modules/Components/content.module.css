@@ -1,0 +1,26 @@
+@import 'group.module.css';
+
+.layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 90vh;
+    
+    background:linear-gradient(0deg, rgba(44, 91, 179, 0.08), rgba(44, 91, 179, 0.08)), #FEFBFF;
+    margin: 15px 60px 15px 0;
+
+    border-radius: 25px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #C5C6D0;
+    margin: 5px 0;
+}
