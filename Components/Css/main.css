@@ -1,0 +1,26 @@
+@import 'Modules/forms.module.css';
+@import 'Modules/reset.module.css';
+
+:root{
+    --page-background: #FFFFFF;
+    --form-input-primary: #E1E2EC;
+    --form-input-secondary: #000000;
+    --form-input-secondary-hover: #2C5BB3;
+    --form-input-error: #BA1A1A;
+    --form-input-disabled: .4;
+    --form-input-enabled: 1;
+    --form-checkbox-track-off: #8F9099;
+    --form-checkbox-thumb-off: #8F9099;
+
+    --form-checkbox-track-on: #8F9099;
+    --form-checkbox-thumb-on: #8F9099;
+    --form-outline: #757780;
+}
+
+body[theme="dark"]{
+    --page-background: #1B1B1F;
+    --form-input-primary: #44464F;
+    --form-input-secondary: #E3E2E6;
+    --form-input-secondary-hover: #B0C6FF;
+    --form-outline: #8F9099;
+}

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componets page</title>
-    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="Css/main.min.css">
 </head>
-<body theme="dark">
+<body theme="light">
     <div class="wrapper">
         <div class="menu">
             <button id="form-switch" type="button">Показать / скрыть инпуты</button>
             <button type="button">Показать / скрыть селекты</button>
-            <button type="button">Показать / скрыть текствовые инпуты</button>
+            <button id="theme-switch" type="button">Сменить тему</button>
         </div>
         <form class="form-wrapper uns" action="" id="forms">
             <fieldset class="form-group">
@@ -71,12 +71,13 @@
                 <legend class="form-group-title">Чекбоксы</legend>
 
                 <label class="form-group-checkbox">
-                    <input type="checkbox">
+                    <input class="check" type="checkbox" id="check-2">
                     <span class="checkbox-form-switch"></span>
                 </label>
 
                 <label class="form-group-checkbox">
-                    <input type="checkbox">
+                    <legend class="form-checkbox-text">Смена темы</legend>
+                    <input class="check" type="checkbox" id="check-1">
                     <span class="checkbox-form-switch"></span>
                 </label>
 
@@ -118,5 +119,10 @@
 </body>
 </html>
 <style>
-
+    .form-checkbox-text{
+        position: absolute;
+        top: -1px;
+        left: 45px;
+        width: 200px;
+    }
 </style>
